@@ -1,3 +1,42 @@
+/* Navbar styles */
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+nav a.active {
+  color: #fff;
+  border-bottom: 2px solid #fff;
 
 .call-to-action {
   background-color: #f7f7f7;
@@ -27,4 +66,5 @@
 
 .call-to-action button:hover {
   background-color: #444;
-}
+  }
+
